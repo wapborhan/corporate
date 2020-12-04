@@ -61,7 +61,7 @@
         width: 0;
         height: 0;
         border-bottom: 400px solid #fb8686;
-        border-right: 300px solid transparent;
+        border-right: 280px solid transparent;
         z-index: -1;
     }
 
@@ -74,7 +74,7 @@
     }
 
     .new-fet-content p {
-        width: 300px;
+        width: 250px;
     }
 
     .signup-head h2 {
@@ -200,4 +200,33 @@
 
 
 
-@media (min-width: 992px) and (max-width: 1199px) {}
+@media (min-width: 992px) and (max-width: 1199px) {
+    #banner {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .banner-head {
+        padding-top: 100px;
+    }
+
+    .design-img img {
+        width: 100%;
+        height: 985px;
+    }
+
+    .design-shape {
+        border-bottom: 615px solid #fb8686;
+        border-left: 515px solid transparent;
+    }
+
+
+
+
+
+
+
+
+
+
+}
