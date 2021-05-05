@@ -190,6 +190,19 @@
         font-size: 12px;
     }
 
+    .new-fet-content p {
+
+        width: 520px;
+    }
+
+    .feature-iteam {
+        padding: 0px;
+    }
+
+    .fet-content p {
+        padding: 10px 0px;
+    }
+
 }
 
 
