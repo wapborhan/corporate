@@ -1,0 +1,502 @@
+/*Fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@100;200;400;500;600;700;900&display=swap");
+/*Fonts*/
+
+/*Banner Part Start*/
+#banner {
+  /* background: url(../images/head-bg.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.banner-head {
+  padding-top: 220px;
+}
+
+.banner-head h2 {
+  font-family: "Exo", sans-serif;
+  font-size: 60px;
+  font-weight: 100;
+}
+
+.banner-head h2 span {
+  display: inline-block;
+}
+
+.button {
+  display: inline-grid;
+}
+
+a.play-btn {
+  color: #8185a3;
+  font-size: 45px;
+  cursor: pointer;
+}
+
+a.banner-btn {
+  margin-top: 20px;
+  font-family: "Exo", sans-serif;
+  padding: 5px 35px;
+  background: #ff6d6d;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+a.banner-btn:hover {
+  text-decoration: none;
+  background: green;
+  transition: 0.3s;
+}
+
+.banner-head p {
+  font-family: "Exo", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+
+/*Banner Part Start*/
+
+/*Design Part Start*/
+#design {
+}
+
+.design-content {
+  padding: 150px 100px;
+}
+
+.design-content h5 {
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ff6d6d;
+  text-transform: uppercase;
+}
+
+.design-content h2 {
+  font-family: "Exo", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.design-content h2 span {
+  display: block;
+}
+
+.design-content p {
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #282828;
+}
+
+.design-content p span {
+  display: block;
+  margin-top: 30px;
+}
+
+.design-img img {
+  width: 100%;
+  height: 700px;
+}
+
+.design-imge {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+
+.no-row {
+  margin: 0;
+}
+
+.design-shape {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 350px solid #fb8686;
+  border-left: 760px solid transparent;
+}
+
+/*Design Part End*/
+
+/*Feature Part Start*/
+#feature {
+  padding: 150px 0px;
+  background: #f5f4f2;
+  position: relative;
+}
+
+.feat-heat h5 {
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ff6d6d;
+  text-transform: uppercase;
+}
+
+.feat-heat h2 {
+  font-family: "Exo", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #282828;
+}
+
+.main-feature {
+  padding-top: 90px;
+}
+
+.feature-iteam {
+  padding: 20px;
+  transition: 0.3s;
+}
+
+.feature-iteam:hover {
+  background: #fff;
+  transition: 0.3s;
+  box-shadow: 0px 0px 25px 5px #fff;
+}
+
+.icon {
+}
+
+.fet-content h2 {
+  font-family: "Exo", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #282828;
+}
+
+.fet-content p {
+  font-family: "Exo", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #282828;
+}
+
+.fet-left-top {
+  position: absolute;
+  top: 0;
+}
+
+.fet-right-top {
+  position: absolute;
+  top: 0;
+  right: 10%;
+}
+
+.fet-right-bottoom {
+  position: absolute;
+  right: 10%;
+}
+
+/*Feature Part End*/
+
+/*Responsive Design Part Start*/
+#res-design {
+  padding: 95px 0px;
+  position: relative;
+}
+
+.res-des-img img {
+  width: 100%;
+}
+
+.res-des-content {
+  padding-left: 30px;
+}
+
+.res-design-shape {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 580px solid #fb8686;
+  border-right: 700px solid transparent;
+  z-index: -1;
+}
+
+.res-des-content h5 {
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ff6d6d;
+  text-transform: uppercase;
+}
+
+.res-des-content h2 {
+  font-family: "Exo", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.res-des-content h2 span {
+  display: block;
+}
+
+.res-des-content p {
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #282828;
+  padding-top: 30px;
+}
+
+/*Responsive Design Part End*/
+
+/*Clients Part Start*/
+#clients {
+  padding: 100px 0px;
+  /* background: url(../images/clients-bg.jpg); */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.clients-content h5 {
+  font-family: "Exo", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 20px;
+}
+
+.clients-content h2 {
+  font-family: "Exo", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #ff6d6d;
+  padding-top: 10px;
+}
+
+.clients-content p {
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: #ffffff;
+  padding-top: 10px;
+  padding: 10px;
+}
+
+.partner {
+  padding-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.partner-iteam img {
+  width: 100%;
+}
+
+/*Clients Part End*/
+
+/*New Feature Part Start*/
+#new-feature {
+  padding-top: 100px;
+  background: #f6f5f3;
+}
+
+.new-fet-content img {
+  width: 100%;
+}
+
+.new-fet-content h5 {
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ff6d6d;
+  text-transform: uppercase;
+}
+
+.new-fet-content h2 {
+  font-family: "Exo", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #282828;
+}
+
+.new-fet-content p {
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #282828;
+  padding-top: 30px;
+  width: 600px;
+  display: inline-block;
+  padding-bottom: 90px;
+}
+
+/*New Feature Part End*/
+
+/*SignUp Part Start*/
+#singup {
+  padding: 95px 0px;
+  background: #323969;
+}
+
+.signup-head {
+}
+
+.signup-head h5 {
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ff6d6d;
+  text-transform: uppercase;
+}
+
+.signup-head h2 {
+  font-family: "Exo", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  color: #fff;
+  padding-bottom: 40px;
+}
+
+.singup-int {
+  padding-top: 30px;
+}
+
+a.contact-btn {
+  display: block;
+  background: #ff6d6d;
+  padding: 8px;
+  font-family: "Exo", sans-serif;
+  font-weight: 400;
+  color: #fff;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+a.contact-btn:hover {
+  text-decoration: none;
+  background: green;
+  transition: 0.3s;
+}
+
+.terms p {
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 200;
+  color: #f6f5f3;
+  padding-top: 30px;
+}
+
+.terms p a {
+  font-weight: 200;
+  color: #f6f5f3;
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+.terms p a:hover {
+  color: #ff6d6d;
+  transition: 0.3s;
+}
+
+/*SignUp Part End*/
+
+/*Footer Part Start*/
+#footer {
+  padding-top: 50px;
+  position: relative;
+}
+
+.foot-shape {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  border-top: 250px solid #fb8686;
+  border-left: 300px solid transparent;
+  z-index: -1;
+}
+
+.foot-iteam p {
+  font-family: "Exo", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #282828;
+}
+
+.foot-iteam h2 {
+  font-family: "Exo", sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #282828;
+  text-transform: capitalize;
+  padding-bottom: 10px;
+}
+
+.foot-iteam ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.foot-iteam ul li a {
+  font-family: "Exo", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #282828;
+  text-transform: capitalize;
+  transition: 0.3s;
+}
+
+.foot-iteam ul li a:hover {
+  text-decoration: none;
+  color: #ff6d6d;
+  transition: 0.3s;
+  letter-spacing: 2px;
+}
+
+.btn-outline-secondary {
+  color: #fff;
+  background-color: #ff6d6d;
+  border-color: #ff6d6d;
+}
+
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: green;
+  border-color: green;
+}
+
+.fab {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-google,
+.fa-linkedin {
+  color: #ff6d6d;
+  font-size: 25px;
+  margin: 5px;
+  transition: 0.3s;
+}
+
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google:hover,
+.fa-linkedin:hover {
+  color: green;
+  transition: 0.3s;
+}
+
+/*Footer Part End*/

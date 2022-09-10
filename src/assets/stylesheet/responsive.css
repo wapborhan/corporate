@@ -1,0 +1,245 @@
+@media (max-width: 576px) {
+    iframe {
+        width: 100%;
+        height: 60%;
+    }
+
+    #banner {
+        height: 400px;
+    }
+
+    .banner-head {
+        padding-top: 100px;
+    }
+
+    .banner-head h2 {
+        font-size: 29px;
+    }
+
+    .design-content {
+        padding: 100px 40px;
+    }
+
+    .design-content h2 {
+        font-size: 25px;
+    }
+
+    .design-shape {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 0;
+        height: 0;
+        border-bottom: 400px solid #fb8686;
+        border-left: 450px solid transparent;
+    }
+
+
+    .fet-left-top {
+        visibility: hidden;
+    }
+
+    .fet-right-top {
+        position: absolute;
+        top: 30px;
+        right: 0;
+    }
+
+    .fet-content p {
+        padding: 10px 40px;
+    }
+
+    .fet-right-bottoom {
+        position: absolute;
+        right: 0%;
+    }
+
+    .res-design-shape {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        border-bottom: 400px solid #fb8686;
+        border-right: 280px solid transparent;
+        z-index: -1;
+    }
+
+    .res-des-content h2 {
+        font-size: 25px;
+    }
+
+    .res-des-content h5 {
+        padding-top: 30px;
+    }
+
+    .new-fet-content p {
+        width: 250px;
+    }
+
+    .signup-head h2 {
+        font-size: 30px;
+    }
+
+    .terms p {
+        font-size: 20px;
+    }
+
+    .foot-social {
+        margin-bottom: 50px;
+    }
+
+    .foot-iteam h2 {
+        padding-top: 20px
+    }
+
+    .foot-shape {
+        border-top: 500px solid #fb8686;
+        border-left: 190px solid transparent;
+
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+    iframe {
+        width: 100%;
+    }
+
+    #banner {
+        height: 600px;
+    }
+
+    .banner-head {
+        padding-top: 150px;
+    }
+
+    .banner-head h2 {
+        font-size: 45px;
+    }
+
+    .design-content {
+        padding: 100px 30px;
+    }
+
+    .design-content h2 {
+        font-size: 30px;
+    }
+
+    .design-shape {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 0;
+        height: 0;
+        border-bottom: 373px solid #fb8686;
+        border-left: 385px solid transparent;
+    }
+
+    .design-img img {
+        height: 730px;
+    }
+
+    .fet-left-top img {
+        width: 70%;
+    }
+
+    .fet-content p {
+        padding: 10px 65px;
+    }
+
+    .res-design-shape {
+
+        border-bottom: 450px solid #fb8686;
+        border-right: 445px solid transparent;
+        z-index: -1;
+    }
+
+    .res-des-content h2 {
+        font-size: 28px;
+    }
+
+    #res-design {
+        padding: 50px 0px;
+    }
+
+    #clients {
+        padding: 60px 0px;
+    }
+
+    .partner {
+        padding-top: 50px;
+
+    }
+
+    #new-feature {
+        padding-top: 50px;
+    }
+
+    .new-fet-content p {
+        padding-bottom: 30px;
+    }
+
+    .foot-iteam h2 {
+        font-size: 20px;
+    }
+
+    .foot-iteam p {
+        font-size: 12px;
+    }
+
+    .new-fet-content p {
+
+        width: 520px;
+    }
+
+    .feature-iteam {
+        padding: 0px;
+    }
+
+    .fet-content p {
+        padding: 10px 0px;
+    }
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #banner {
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    .banner-head {
+        padding-top: 100px;
+    }
+
+    .design-img img {
+        width: 100%;
+        height: 985px;
+    }
+
+    .design-shape {
+        border-bottom: 615px solid #fb8686;
+        border-left: 515px solid transparent;
+    }
+
+
+
+
+
+
+
+
+
+
+}

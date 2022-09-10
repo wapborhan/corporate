@@ -1,5 +1,12 @@
+import { Fragment } from "react";
+import Banner from "./components/Banner";
+
 function App() {
-  return <div className="App"></div>;
+  return (
+    <Fragment>
+      <Banner />
+    </Fragment>
+  );
 }
 
 export default App;
