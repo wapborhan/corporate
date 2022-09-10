@@ -1,7 +1,9 @@
 /*Fonts*/
 @import url("https://fonts.googleapis.com/css2?family=Exo:wght@100;200;400;500;600;700;900&display=swap");
 /*Fonts*/
-
+a {
+  text-decoration: none;
+}
 /*Banner Part Start*/
 #banner {
   /* background: url(../images/head-bg.jpg); */

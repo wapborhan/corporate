@@ -1,57 +1,58 @@
 import React from "react";
+import headBG from "../assets/images/head-bg.jpg";
 
 const Banner = () => {
   return (
     <section
       id="banner"
       style={{
-        backgroundImage: `url("https://via.placeholder.com/500")`,
+        backgroundImage: `url("${headBG}")`,
       }}
     >
-      <div class="container">
-        <div class="banner-head text-center">
+      <div className="container">
+        <div className="banner-head text-center">
           <h2>
             There is no other <span>platforms for you as like</span>
           </h2>
-          <div class="button">
+          <div className="button">
             <a
-              class="play-btn"
+              className="play-btn"
               data-toggle="modal"
               data-src="https://www.youtube.com/embed/Jfrjeg26Cwk"
               data-target=".bd-example-modal-lg"
             >
-              <i class="fas fa-play-circle"></i>
+              <i className="fas fa-play-circle"></i>
             </a>
-            <a class="banner-btn" href="#">
+            <a className="banner-btn" href="#">
               try now
             </a>
           </div>
 
           {/* <!-- Modal --> */}
           <div
-            class="modal fade bd-example-modal-lg"
+            className="modal fade bd-example-modal-lg"
             id="largeModal"
             tabindex="-1"
             role="dialog"
             aria-labelledby="myLargeModalLabel"
             aria-hidden="true"
           >
-            <div class="modal-dialog modal-lg" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">
+            <div className="modal-dialog modal-lg" role="document">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <h5 className="modal-title" id="exampleModalLabel">
                     Corporate
                   </h5>
                   <button
                     type="button"
-                    class="close"
+                    className="close"
                     data-dismiss="modal"
                     aria-label="Close"
                   >
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
-                <div class="modal-body">
+                <div className="modal-body">
                   <iframe
                     width="700"
                     height="506"
@@ -64,7 +65,7 @@ const Banner = () => {
               </div>
             </div>
           </div>
-
+          {/*  */}
           <p>* No need to add cards details</p>
         </div>
       </div>
