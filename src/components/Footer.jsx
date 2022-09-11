@@ -1,6 +1,7 @@
 import React from "react";
 
 const Footer = () => {
+  const d = new Date();
   return (
     <section id="footer">
       <div className="container">
@@ -67,12 +68,10 @@ const Footer = () => {
       </div>
       <div className="foot-shape"></div>
       <h5 className="text-center p-5">
-        Copyright © <script>document.write(new Date().getFullYear())</script>{" "}
-        Corporate | Powered by <a href="http://codestrickz.xyz">CodesTrickz</a>{" "}
-        | Designed BY{" "}
-        <a className="linksl kukuri" href="http://wapborhan.com/">
+        Copyright © {d.getFullYear()} Corporate | Designed BY{" "}
+        <a className="linksl kukuri" href="http://www.srdreamlab.com.com/">
           <i className="fas fa-heart"></i>
-          Borhan Uddin
+          SR Dream Lab
           <i className="fas fa-heart"></i>
         </a>
       </h5>
